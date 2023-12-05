@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Design My Space</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="icon" type="image/x-icon" href="assets/image/DMS LOGO-01-01.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- ========================Swiper Slider ================ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- =------------ AOS Animation ============= -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <style>
+        .term_condtion p {
+            font-size: 1.6rem;
+
+        }
+    </style>
+
+<body>
+    <!-- =============== Get quote universal ========== -->
+    <div class="switcher-area">
+        <a class="switch-button" data-bs-toggle="modal" data-bs-target="#switcher-area"><i><i
+                    class="bi bi-ui-checks"></i> Get Quote</i></a>
+    </div>
+    <!-- Modal -->
+    <div class="modal popup fade" id="switcher-area" tabindex="-1" aria-labelledby="switcher-areaLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark justify-content-center">
+                    <div>
+                        <a class="navbar-brand fs-2 text-white" href="index.html">
+                            <img src="assets/image/brand-logo.png" class="img-fluid" width="200">
+                        </a>
+                        <h1 class="modal-title text-white text-center fs-5" id="switcher-areaLabel">Get In Touch</h1>
+                    </div>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body universal-getQoute">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                            <label for="inputEmail4" class="form-label fs-5">Name</label>
+                            <input type="text" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputPassword4" class="form-label fs-5">Phone Number</label>
+                            <input type="text" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputPassword4" class="form-label fs-5">Select Subject</label>
+                            <select class="form-select form-control" aria-label="Default select example">
+                                <option selected>Enquiry For</option>
+                                <option value="1">Interior Desiner</option>
+                                <option value="2">Interior Desiner</option>
+                                <option value="3">Interior Desiner</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label fs-5">Enter Your Massage</label>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-danger fs-5">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- =============== Get quote universal ========== -->
+
+    <!-- =============== Header ================= -->
+    <nav class="navbar navbar-expand-lg bg-dark py-0">
+        <div class="container ">
+            <a class="navbar-brand fs-2 text-white" href="index.html">
+                <img src="assets/image/brand-logo.png" class="img-fluid" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="fullhome.html">Full Home</a>
+                        <span class="hovers"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Kitchen.html">Kitchen</a>
+                        <span class="hovers"></span>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bathroom.html">Bath Room
+                        </a>
+                        <span class="hovers"></span>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="office.html">Full Office
+                        </a>
+                        <span class="hovers"></span>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="rooftop.html">RoofTop</a>
+                        <span class="hovers"></span>
+
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- ======================================== -->
+    <section class="bg-dark bg-prop home-section d-flex align-items-center aboutusb ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <h1 class="page-heading fs-1">About Us</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Project Details -->
+    <section class="py-5 bg-body-tertiary term_condtion">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-6 col-12">
+                    <img src="assets/image/abt-img.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-6 col-12">
+                    <h3 class="fs-1 mb-4 text-dark text-decoration-underline">Design My Space</h3>
+                    <p>Design My Space brings 10 years of interior design experience right to your home or office. Our
+                        design professionals are equipped to help you determine the products and designs that work best.
+                    </p>
+                    <p>Interior design is the art and science of enhancing the interior of a building to achieve a
+                        healthier and more aesthetically pleasing environment for the people using the space. An
+                        interior designer is someone who plans, researches, coordinates, and manages such enhancement
+                        projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style type="text/css">
+        .our-team_card {
+            background-color: rgba(255, 255, 255, 0.4);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(2px);
+            padding: 20px;
+            margin: 30px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .our-team_card:after {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.4);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(2px);
+            padding: 20px;
+            margin: 30px;
+            font-weight: bold;
+        }
+
+        .our-team_card .card-body .card-title {
+            font-size: 2rem;
+            font-family: ui-sans-serif;
+            margin-bottom: 0;
+        }
+
+        .our-team_card .card-body h6 {
+            font-size: 1.5rem;
+            font-family: ui-sans-serif;
+        }
+    </style>
+    <section class="d-flex align-items-center ">
+        <div class="container">
+            <div class="row  mt-5">
+                <div class="col-12">
+                    <div class="sec-heading ">
+                        <svg width="100%">
+                            <text x="50%" y="50%">Meet Our Team</text>
+                        </svg>
+
+                    </div>
+                    <p class="fs-3 text-dark text-center">Our Expert team is made up of creatives with
+                        technical<br>know-how to Make attractive Decoration.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card our-team_card">
+                        <img src="assets/image/team-1.jpg" class="card-img-top " alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Deepak</h5>
+                            <h6>Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card our-team_card">
+                        <img src="assets/image/team-3.jpg" class="card-img-top " alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sherlin</h5>
+                            <h6>Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card our-team_card">
+                        <img src="assets/image/team-4.jpg" class="card-img-top " alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ramanuj Shrma</h5>
+                            <h6>Designer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card our-team_card">
+                        <img src="assets/image/testimonial-1.jpg" class="card-img-top " alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Rahul Raj</h5>
+                            <h6>Designer</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ===================== footer Us Section ======================== -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 ">
+                <div class="row g-3">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Noida. Gurgaon. Delhi NCR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+91-7303976632</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="bi bi-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>services@designmyspace.online</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-1">
+                <div class="row g-3">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="assets/image/brand-logo.png" width="78%"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p> Design My Space brings 10 years of interior design experience right to your home or
+                                    office. Our design professionals are equipped to help you determine the products and
+                                    designs that work best.
+                                </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <ul class="social_icon">
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="our_team.html">Our Team</a></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="term&condition.html">Terms</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="contact_us.html">Contact us</a></li>
+                                <li><a href="privacy.html">Privacy</a></li>
+                                <!-- <li><a href="#">Policy</a></li> -->
+
+                            </ul>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Mail Us For More Information</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="bi bi-telegram"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row justify-content-center g-3">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved <a href="#"> </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===========================JS AND JQUERY CDN ===========================  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
